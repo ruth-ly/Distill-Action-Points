@@ -7,6 +7,9 @@ An AI-powered app that turns messy meeting notes into structured, accountable ac
 - **When** it's due, with priority levels
 - **What's missing** — unowned tasks, vague deadlines ("soon", "ASAP"), and open questions are flagged with amber "ask the team" prompts
 
+
+**[🔗 Live demo](https://distill-action-points-ip9i.vercel.app/)** — paste your messiest meeting notes and watch.
+
 ## How it works
 
 The intelligence of this app lives in a single, carefully engineered **system prompt** (see `api/distill.js`). It demonstrates four core prompt-engineering techniques: specificity, few-shot examples, structured JSON output, and reasoning-before-answering.
